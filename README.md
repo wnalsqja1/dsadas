@@ -2,46 +2,46 @@
 
 ## Authors
 
-Computer Vision Lab @ HYU
+    Computer Vision Lab @ HYU
 
-- Changhee Won (chwon@hanyang.ac.kr)
-- Changho Sung (oknkc8@gmail.com)
-- Jongwoo Lim (jongwoo.lim@gmail.com)
-- Sangheon Yang (yangsh.official@gmail.com)
-- Minbum Joo (wnalsqja@gmail.com)
+    - Changhee Won (chwon@hanyang.ac.kr)
+    - Changho Sung (oknkc8@gmail.com)
+    - Jongwoo Lim (jongwoo.lim@gmail.com)
+    - Sangheon Yang (yangsh.official@gmail.com)
+    - Minbum Joo (wnalsqja@gmail.com)
 
 
 ## Install Dependencies
 
 ### Linux (Ubuntu)
 
-* Install necessary packages
+    * Install necessary packages
 
-```
-sudo apt-get install cmake libeigen3-dev libgflags-dev libgoogle-glog-dev libpng-dev libjpeg-dev libglew-dev freeglut3-dev libyaml-cpp-dev
-```
+    ```
+    sudo apt-get install cmake libeigen3-dev libgflags-dev libgoogle-glog-dev libpng-dev libjpeg-dev libglew-dev freeglut3-dev libyaml-cpp-dev
+    ```
 
-* Install pangolin library: https://github.com/stevenlovegrove/Pangolin
+    * Install pangolin library: https://github.com/stevenlovegrove/Pangolin
 
 ## Dataset
 
 ### Download Example Data
 
 
-Set path as `[project_dir]/data/dataset_name/...`
+    Set path as `[project_dir]/data/dataset_name/...`
 
-#### Multi-FoV
+    #### Multi-FoV
 
-- Modified from Multi-FoV Dataset (http://rpg.ifi.uzh.ch/fov.html)
-- Download here(Urban): https://drive.google.com/file/d/1f-SvukbBIAlLCmtPK6jw5HICIDUozl-P/view?usp=sharing
-- Download here(VFR):
+        - Modified from Multi-FoV Dataset (http://rpg.ifi.uzh.ch/fov.html)
+        - Download here(Urban): https://drive.google.com/file/d/1f-SvukbBIAlLCmtPK6jw5HICIDUozl-P/view?usp=sharing
+        - Download here(VFR):
 
-#### TUM RGB-D SLAM
+    #### TUM RGB-D SLAM
 
-* Modified from TUM RGB-D SLAM Dataset (https://vision.in.tum.de/data/datasets/rgbd-dataset)
-* Download here(freiburg2_pioneer2_360): 
-* Download here(freiburg2_pioneer2_slam): 
-* Download here(freiburg3_long_office_household): 
+        * Modified from TUM RGB-D SLAM Dataset (https://vision.in.tum.de/data/datasets/rgbd-dataset)
+        * Download here(freiburg2_pioneer2_360): 
+        * Download here(freiburg2_pioneer2_slam): 
+        * Download here(freiburg3_long_office_household): 
 
 ### Rosbag Data Parsing ( LG seocho etc ...)
 
