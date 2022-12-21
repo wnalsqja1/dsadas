@@ -47,10 +47,10 @@ Set path as `[project_dir]/data/dataset_name/...`
 
 #### Environments
 
-Ros melodic : http://wiki.ros.org/melodic/Installation/Ubuntu
-OpenCV2
-Eigen3
-cv_bridge
+Ros melodic : http://wiki.ros.org/melodic/Installation/Ubuntu <br>
+OpenCV2 <br>
+Eigen3 <br>
+cv_bridge <br>
 
 #### Settings 
 
@@ -63,7 +63,7 @@ $ catkin_init_workspace
 $ catkin_make
 ```
 
-second, move directory[rosbag_synchronizer] to '[your catkin_ws]/src'
+second, move directory`[rosbag_synchronizer]` to `[your catkin_ws]/src`
 
 ```shell
 $ cd catkin_ws
@@ -185,11 +185,11 @@ sh run_voxel_mapper.sh
 
 ## Evaluation
 
-### 1. Synthetic Dataset ( urban, vfr) Mesh accuracy evaluation
+### 1. Synthetic Dataset ( urban, vfr ) Mesh accuracy evaluation
 
 #### settings
 
-change directory in [project_dir]/src/eval_mesh_accuracy_2022.cc
+change directory in `[project_dir]/src/eval_mesh_accuracy_2022.cc`
 
 ```shell
 const string urban_prefix = "/home/sangheonyang/HDDdata/LG22/results/result_plys/05_Multi-fov_urban_1216_mesh_eval/";
@@ -208,7 +208,7 @@ $ cd [project_dir]/build/./evaluator
 
 #### settings
 
-change directory in [project_dir]/src/eval_plane_accuracy_mesh.cc
+change directory in `[project_dir]/src/eval_plane_accuracy_mesh.cc`
 
 ```shell
 const string prefix = "/home/sangheonyang/HDDdata/LG22/results/result_plys/1216_results_all_SH/";
@@ -231,7 +231,7 @@ PlaneRCNN : https://github.com/NVlabs/planercnn
 
 #### Download Scannet evaluation Dataset and result of project
 consist of 5000 dataset  
-Download Dataset into : [project_dir]/scannet_evaluation_mb/
+Download Dataset into : `[project_dir]/scannet_evaluation_mb/`
 
 #### Scannet evaluation Dataset Structure & Format
 ```shell
@@ -268,14 +268,14 @@ Download Dataset into : [project_dir]/scannet_evaluation_mb/
 
 #### Run Evaluation
 ```shell
-$ python [project_dir]/scannet_evaluation_mb/evaluate_plane_recall.py
+$ python `[project_dir]/scannet_evaluation_mb/evaluate_plane_recall.py`
 ```  
 
 ### 4. create plane label for plane_recall evaluation  
 
 #### settings
 
-change directory in [project_dir]/src/eval_plane_recall.cc
+change directory in `[project_dir]/src/eval_plane_recall.cc`
 
 ```shell
 // ---- NOTE : please assign appropriate path to files below -------------------------------//////////////////////
@@ -296,7 +296,7 @@ $ build
 $ cd [project_dir]/build/./evaluator_plane_recall
 ```
 
-and rename 'new_predSegmentation' as 'pred_Segmentation'
+and rename `new_predSegmentation` as `pred_Segmentation`
 
 
 ## Example
