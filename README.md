@@ -46,10 +46,10 @@ Set path as `[project_dir]/data/dataset_name/...`
 
 #### Environments
 
-Ros melodic : http://wiki.ros.org/melodic/Installation/Ubuntu <br>
-OpenCV2 <br>
-Eigen3 <br>
-cv_bridge <br>
+* Ros melodic : http://wiki.ros.org/melodic/Installation/Ubuntu <br>
+* OpenCV2 <br>
+* Eigen3 <br>
+* cv_bridge <br>
 
 #### Settings 
 
