@@ -151,18 +151,25 @@ python convert_LGE_fmt.py
 ### create deeplab v3 file
 #### settings
 
-`save_deeplab.py` file should be set according to the image size.
+before Run this project you have to create instance segmentation pt file <br>
+`save_deeplab.py` file should be set according to the image size
 
 ```shell
 # 2. you can change image width and heigh (additional dimension, RGB channel, height, width)
 example = torch.rand(1, 3, 480, 848)
 model.eval()
+
+...
+
+# 3. you can change file name 
+torch.jit.save(traced_script_module,"./deeplabv3_(1,3,480,848)_cuda.pt")
+
 ```
 
 #### run 
 
 ```shell
-python [project_dir]/save_maskrcnn_or_deeplab/save_maskrcnn_or_deeplab.py
+python [project_dir]/save_deeplab/save_deeplab.py
 ```
 
 ### build & Run
