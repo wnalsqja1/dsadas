@@ -148,7 +148,19 @@ python convert_LGE_fmt.py
 
 ## Build & Run
 
-### (Optional) create deeplab v3 or maskRCNN pt file
+### create deeplab v3 file
+#### settings
+
+`save_deeplab.py` file should be set according to the image size.
+
+```shell
+# 2. you can change image width and heigh (additional dimension, RGB channel, height, width)
+example = torch.rand(1, 3, 480, 848)
+model.eval()
+```
+
+#### run 
+
 ```shell
 python [project_dir]/save_maskrcnn_or_deeplab/save_maskrcnn_or_deeplab.py
 ```
