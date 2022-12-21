@@ -148,6 +148,12 @@ python convert_LGE_fmt.py
 
 ## Build & Run
 
+### (Optional) create deeplab v3 or maskRCNN pt file
+```shell
+python [project_dir]/save_maskrcnn_or_deeplab/save_maskrcnn_or_deeplab.py
+```
+
+### build & Run
 ```shell
 mkdir build && cd build
 cmake ..
